@@ -17,8 +17,8 @@ The correct telemetry scheme is sent using the “Bot Instrumentation” [NPM pa
 On top of the credentials needed to instantiate the [bot-instrumentation](https://github.com/CatalystCode/botbuilder-instrumentation), you will have to obtain your QNA Maker SubscriptionKey and Knowledge Base ID from https://qnamaker.ai/.
 
 # You will find 2 code smaples:
-1. QnA Maker bot with instrumentation and telemetry sent to Application Insights.
-2. QnA Maker bot integrated with LUIS as well in order to allow more conversational experience for the user, and telemetry send to Application Insights which contains both te QnA results and LUIS intents.
+1. [QnA Maker bot with instrumentation](https://github.com/itye-msft/qna-bot-with-instrumentation-and-optional-luis-integration/blob/master/app_qna.js) and telemetry sent to Application Insights.
+2. [QnA Maker bot integrated with LUIS](https://github.com/itye-msft/qna-bot-with-instrumentation-and-optional-luis-integration/blob/master/app_qna_with_luis.js) as well in order to allow a more conversational experience for the user, and telemetry sent to Application Insights, which contains both the QnA results and LUIS intents.
 
 ## License
 MIT
