@@ -2,13 +2,13 @@
   "name": "qna-bot-with-instrumentation",
   "version": "1.0.0",
   "description": "An example on how to use botbuilder-instrumentation with QnA Maker API",
-  "main": "app.js",
+  "main": "app_qna.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "botbuilder": "3.7.0",
     "botbuilder-instrumentation": "^1.1.12",

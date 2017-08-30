@@ -1,3 +1,9 @@
+//=========================================================
+// A QNA maker bot, 
+// sending advanced telemetry to Application Insights 
+// using bot instrumentation.
+//=========================================================
+
 var restify = require('restify');
 var builder = require('botbuilder');
 var instrumentation = require('botbuilder-instrumentation');
